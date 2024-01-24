@@ -1,0 +1,243 @@
+      iframe {
+            width: 100%;
+            height: calc(90vh - 90px);
+            border: none; /* Removes the iframe border */
+            display: block; /* Ensures there's no extra spacing below the iframe */
+            margin: auto; /* Centers the iframe horizontally */
+        }
+        body{
+  padding: 25px;
+font-family: "Codec Pro Regular";
+text-overflow: ellipsis;
+}
+ .login-popup {
+   max-height: 70%; /* Set a maximum height for the popup */
+            overflow-y: auto; /* Enable vertical scrolling */
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            top: 50%;
+            left: 50%;
+            border-radius: 20px;
+            justify-content: center;
+            text-align: center;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+        }
+
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            backdrop-filter: blur(10px);
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #f1f1f160;
+            z-index: 999;
+        }
+        
+        body {
+            background-color: #f1f1f1;
+            color: black;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background: rgb(241,241,241);
+background: linear-gradient(143deg, rgba(241,241,241,1) 0%, rgba(214,219,247,1) 65%, rgba(223,177,255,1) 100%);
+            padding: 20px;
+            text-align: center;
+            margin: 20px;
+            border-radius: 20px;
+        }
+
+        nav {
+            background-color: #f9f9f980;
+            backdrop-filter: blur(10px);
+            padding: 10px;
+            margin: 20px;
+            text-align: center;
+            z-index: 800;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+              position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            padding: 10px 20px;
+            border: solid black;
+            margin: 0 10px;
+            border-radius: 10px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        a:hover {
+            background-color: black;
+            color: white;
+        }
+        
+                button {
+            text-decoration: none;
+            font-family: "Codec Pro Regular";
+            background-color: #ffffff00;
+            color: black;
+            padding: 10px 20px;
+            border: solid black;
+            margin: 5px;
+            border-radius: 10px;
+            transition: background-color 0.3s ease-in-out;
+        }
+        input {
+            text-decoration: none;
+            font-family: "Codec Pro Regular";
+            background-color: #ffffff00;
+            color: black;
+            padding: 10px 20px;
+            border: solid black;
+            margin: 5px;
+            border-radius: 10px;
+            transition: background-color 0.3s ease-in-out;
+        }
+        button:hover {
+            background-color: black;
+            color: white;
+        }
+                        button {
+            text-decoration: none;
+            font-family: "Codec Pro Regular";
+            background-color: #ffffff00;
+            color: black;
+            padding: 10px 20px;
+            border: solid black;
+            margin: 10px;
+            border-radius: 10px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .button2:hover {
+            background-color: white;
+            color: black;
+        }
+                        .button2 {
+            text-decoration: none;
+            font-family: "PP Telegraf";
+            background-color: #ffffff00;
+            color: white;
+            padding: 10px 20px;
+            border: solid white;
+            margin: 10px;
+            border-radius: 10px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        section {
+            padding: 20px;
+            border-radius: 20px;
+            margin: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background: linear-gradient(143deg, rgba(241,241,241,1) 0%, rgba(214,219,247,1) 65%, rgba(223,177,255,1) 100%);
+            padding: 10px;
+            text-align: center;
+            border-top: 2px solid black;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+           /* Add these styles inside the existing <style> tag */
+    #ticket-booking {
+        padding: 20px;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #ticket-booking h2 {
+        color: black;
+        text-align: center;
+    }
+
+    #ticket-booking form {
+        display: flex;
+        flex-direction: column;
+        max-width: 90vw;
+        margin: 0 auto;
+    }
+
+    #ticket-booking label {
+        margin-top: 10px;
+        color: black;
+    }
+
+    #ticket-booking input {
+        padding: 10px;
+        margin: 5px 0 15px 0;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-x: auto;
+    table-layout: fixed; /* Use fixed table layout to handle overflow */
+}
+
+/* Apply responsive styles to table cells */
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    color: #000;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* Style the table header */
+table th {
+    background-color: lightgray;
+    color: #090909;
+}
+        .payment-popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            border-radius: 20px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+        }
+        .iframe-popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            border-radius: 20px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            width: 90vw;
+            height: 90vh;
+            background: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 9999;
+        }
