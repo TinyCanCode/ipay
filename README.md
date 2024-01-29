@@ -1,5 +1,5 @@
 # ipay
-A simplified payment system with many integrations for the PZX ESDT token. It includes several features such as:
+A simplified payment system with many integrations for the PZX ESDT token, as well as most functions of the MultiversX blockchain. It includes several features such as:
 
 Payment via QR code,
 insights into transactions,
