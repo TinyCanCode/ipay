@@ -9,5 +9,6 @@ Developer and user friendly mini apps within the main app,
 AI tools,
 Marketplaces,
 Account Recovery and sharing,
+Stock and token exchange
 
-This github repo contains mostly example apps (which can be integrated into iPay minis), payment infrastructure for dApps (soon) and login with iPay code. It also contains select iPay minis, so you can have a look at the code and make your own version.
+This github repo contains mostly example apps (which can be integrated into iPay minis), payment infrastructure for dApps (soon) and setup for Login w/ iPay. It also contains select iPay minis, so you can have a look at the code and make your own version.
