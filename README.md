@@ -2,13 +2,15 @@
 A simplified payment system with many integrations for the PZX ESDT token. It includes several features such as:
 
 Payment via QR code,
-Insights into transactions,
-Quick payment verification/signatures,
-Payment via short usernames (instead of wallet addresses),
-Developer and user friendly mini apps within the main app,
+insights into transactions,
+quick payment verification/signatures,
+payment via short usernames (instead of wallet addresses),
+developer and user friendly mini apps within the main app,
 AI tools,
-Marketplaces,
-Account Recovery and sharing,
-Stock and token exchange
+marketplaces,
+wallet recovery and sharing,
+a stock and token exchange,
+evergrowing databases and infrastructure 
+and much more
 
 This github repo contains mostly example apps (which can be integrated into iPay minis), payment infrastructure for dApps (soon) and setup for Login w/ iPay. It also contains select iPay minis, so you can have a look at the code and make your own version.
